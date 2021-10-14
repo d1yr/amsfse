@@ -72,8 +72,8 @@
 
 .grid {
   display: flex;
-  align-items: left;
-  justify-content: left;
+  align-items: right;
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 1400px;
   min-width: 500px;
@@ -106,14 +106,14 @@
 }
 .cardb {
   margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
+  padding: 3.5rem;
+  text-align: center;
   color: white;
   text-decoration: none;
-  font-size: 100px;
+  font-size: 3em;
   text-align: center;
   border: 1px solid #eaeaea;
-  border-radius: 10px;
+  border-radius: 27%;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 45%;
   background-color: rgb(238, 96, 226);
@@ -144,8 +144,7 @@
 
 @media (max-width: 600px) {
   .grid {
-    width: 100%;
+    width:50%;
     flex-direction: column;
   }
 }
-
