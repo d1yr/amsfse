@@ -6,6 +6,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+      </style>
         <title>Alexander Sahli Full Stack Engineer</title>
         <meta name="description" />
       </Head>
