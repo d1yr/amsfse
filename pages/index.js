@@ -33,7 +33,7 @@ export default function Home() {
 
           <a className={styles.card}>
             <h2>FRONTEND ENGINEER</h2>
-            <p>Has built applications using Node.js, Javascript, React, JSON, Bootstrap, CSS, HTML, and Redux.</p>
+            <p>Has built applications using Node.js, Javascript, React, next.js, JSON, Bootstrap, CSS, HTML, and Redux, as well as design experience.</p>
           </a>
           <p className={styles.carda}></p>
           <h2 className={styles.cardb}>PROJECTS</h2>
