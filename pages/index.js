@@ -53,7 +53,7 @@ export default function Home() {
           >
             <h2>No Gas Magazine</h2>
             <p>A magazine demonstrating proficiency in linking a Ruby backend to a Javascript SPA
-     ● Created a user friendly layout and considered accessibility<br></br>● Created a user friendly layout and considered accessibility<br></br> ● Created backend using Node.js to retain the info of Staff, Users, and their Articles Incorporated an article editor via a form in a React.js component<br></br>●
+     <br></br>● Created a user friendly layout and considered accessibility<br></br>● Created a user friendly layout and considered accessibility<br></br> ● Created backend using Node.js to retain the info of Staff, Users, and their Articles Incorporated an article editor via a form in a React.js component<br></br>●
 Created a component via React.js to contain a user’s comments on an article</p>
           </a>
           <a
@@ -72,7 +72,7 @@ Created a component via React.js to contain a user’s comments on an article</p
       </main>
 
       <footer className={styles.footer}>
-      <p>AMS 2021</p>
+      <p>Built in Next.js AMS 2021</p>
       </footer>
     </div>
   )
