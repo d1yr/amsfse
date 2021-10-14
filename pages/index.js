@@ -9,7 +9,7 @@ export default function Home() {
         <title>Alexander Sahli Full Stack Engineer</title>
         <meta name="description" />
       </Head>
-
+     
       <main className={styles.main}>
         <h1 className={styles.title}>
           Alexander Sahli, <a href="https://github.com/d1yr">Full-Stack Engineer</a>
