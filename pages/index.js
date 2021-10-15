@@ -37,7 +37,6 @@ export default function Home() {
           </a>
           <p className={styles.carda}></p>
           <h2 className={styles.cardb}>PROJECTS</h2>
-          <a className= {styles.card}><h2><iframe width="100%" height="400" src="https://www.youtube.com/embed/f4OOc2BImq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/></h2></a>
           <a
             href="https://youtu.be/f4OOc2BImq0"
             className={styles.card}
@@ -50,19 +49,19 @@ export default function Home() {
 <br></br>
 </p>
           </a>
-          <a className= {styles.card}><h2><iframe width="100%" height="400" src="https://www.youtube.com/embed/Q621bGUZ1GU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/></h2></a>
+          
           <a
             href="https://youtu.be/Q621bGUZ1GU"
             className={styles.card}
           >
             <h2>No Gas Magazine</h2>
             <p>A magazine demonstrating proficiency in linking a Ruby backend to a Javascript SPA
-     <br></br>● Created a user friendly layout and considered accessibility<br></br>● Created a user friendly layout and considered accessibility<br></br> ● Created backend using Node.js to retain the info of Staff, Users, and their Articles Incorporated an article editor via a form in a React.js component<br></br>●
-Created a component via React.js to contain a user’s comments on an article</p><p><br></br>
-<br></br>
-</p>
+          <br></br>● Created a user friendly layout and considered accessibility<br></br>● Created a user friendly layout and considered accessibility<br></br> ● Created backend using Node.js to retain the info of Staff, Users, and their Articles <br></br>● Incorporated an article editor via a form in a React.js component<br></br>●
+          Created a component via React.js to contain a user’s comments on an article</p><p><br></br>
+          <br></br>
+          </p>
           </a>
-          <a className= {styles.card}><h2><iframe width="100%" height="400" src="https://www.youtube.com/embed/9U5DYzc6kDQ" title="YouTube video player" frameborder="0"/></h2></a>
+          
           <a
             href="https://youtu.be/9U5DYzc6kDQ"
             className={styles.card}
