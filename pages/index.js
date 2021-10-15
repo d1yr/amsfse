@@ -50,7 +50,7 @@ export default function Home() {
 <br></br>
 </p>
           </a>
-          <a className= {styles.card}><h2><iframe width="100%" height="400" src="https://www.youtube.com/embed/Q621bGUZ1GU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h2></a>
+          <a className= {styles.card}><h2><iframe width="100%" height="400" src="https://www.youtube.com/embed/Q621bGUZ1GU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/></h2></a>
           <a
             href="https://youtu.be/Q621bGUZ1GU"
             className={styles.card}
@@ -62,7 +62,7 @@ Created a component via React.js to contain a user’s comments on an article</p
 <br></br>
 </p>
           </a>
-          <a className= {styles.card}><h2><iframe width="100%" height="400" src="https://www.youtube.com/embed/9U5DYzc6kDQ" title="YouTube video player" frameborder="0" ></iframe></h2></a>
+          <a className= {styles.card}><h2><iframe width="100%" height="400" src="https://www.youtube.com/embed/9U5DYzc6kDQ" title="YouTube video player" frameborder="0"/></h2></a>
           <a
             href="https://youtu.be/9U5DYzc6kDQ"
             className={styles.card}
