@@ -56,7 +56,7 @@ export default function Home() {
             <h2>No Gas Magazine</h2>
             <p>A magazine demonstrating proficiency in linking a Ruby backend to a Javascript SPA
      <br></br>● Created a user friendly layout and considered accessibility<br></br>● Created a user friendly layout and considered accessibility<br></br> ● Created backend using Node.js to retain the info of Staff, Users, and their Articles Incorporated an article editor via a form in a React.js component<br></br>●
-Created a component via React.js to contain a user’s comments on an article</p><p><br></br><br></br><iframe width="320" height="100%" src="https://www.youtube.com/embed/Q621bGUZ1GU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+Created a component via React.js to contain a user’s comments on an article<br></br><br></br><iframe width="320" height="100%" src="https://www.youtube.com/embed/Q621bGUZ1GU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
           </a>
           <a
             href="https://youtu.be/9U5DYzc6kDQ"
