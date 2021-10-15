@@ -38,8 +38,7 @@ export default function Home() {
             <h2>FRONTEND ENGINEER</h2>
             <p>Has built applications using Node.js, Javascript, React, next.js, JSON, Bootstrap, CSS, HTML, and Redux, as well as design experience.</p>
             </a>
-          <p className={styles.carda}></p>
-          <h2 className={styles.cardb}>PROJECTS</h2>
+          
           <a
             href="https://youtu.be/f4OOc2BImq0"
             className={styles.card}
