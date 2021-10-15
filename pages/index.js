@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+import ReactPlayer from 'react-player'
 
 export default function Home() {
   return (
@@ -20,12 +22,13 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://vercel.com/alexandermsahli" className={styles.card}>
+          <a className={styles.card}>
+          <Link href="https://vercel.com/alexandermsahli">
             <h2>TECHNICAL SKILLS</h2>
+            </Link> 
             <p>
              A Flatiron School graduate experienced in Ruby, Ruby on Rails, SQLite3, mySQL, HTML, CSS, Javascript, Bootstrap, React, Figma, node.js, next.js, Redux, and version control such as Git and Vercel.</p>
-          </a>
-
+            </a>
           <a className={styles.card}>
             <h2>BACKEND ENGINEER</h2>
             <p>Has experience building applications using relevant technologies such as Ruby, Activerecord, Bcrypt, SQLite3, mongoDB and MySQL.</p>
@@ -34,13 +37,16 @@ export default function Home() {
           <a className={styles.card}>
             <h2>FRONTEND ENGINEER</h2>
             <p>Has built applications using Node.js, Javascript, React, next.js, JSON, Bootstrap, CSS, HTML, and Redux, as well as design experience.</p>
-          </a>
+            </a>
           <p className={styles.carda}></p>
           <h2 className={styles.cardb}>PROJECTS</h2>
           <a
             href="https://youtu.be/f4OOc2BImq0"
             className={styles.card}
           >
+            <div className={ styles.card }>
+        <ReactPlayer url="https://youtu.be/f4OOc2BImq0" max-height="200px" width="100%" />
+        </div>
             <h2>Export Portal</h2>
             <p>A Ruby on Rails app to book time with a studio of the user’s choice<br></br>
 ● Created an SQL database to contain all info pertaining to Users and Studios<br></br>
