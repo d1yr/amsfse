@@ -60,7 +60,7 @@ export default function Home() {
      <br></br>● Created a user friendly layout and considered accessibility<br></br>● Created a user friendly layout and considered accessibility<br></br> ● Created backend using Node.js to retain the info of Staff, Users, and their Articles Incorporated an article editor via a form in a React.js component<br></br>●
 Created a component via React.js to contain a user’s comments on an article</p>
           </a>
-          <a className= {styles.card}><h2><iframe width="100%" height="400" src="https://www.youtube.com/embed/9U5DYzc6kDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h2></a>
+          <a className= {styles.card}><h2><iframe width="100%" height="400" src="https://www.youtube.com/embed/9U5DYzc6kDQ" title="YouTube video player" frameborder="0" allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'></iframe></h2></a>
           <a
             href="https://youtu.be/9U5DYzc6kDQ"
             className={styles.card}
