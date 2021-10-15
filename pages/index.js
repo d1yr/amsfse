@@ -37,6 +37,7 @@ export default function Home() {
           </a>
           <p className={styles.carda}></p>
           <h2 className={styles.cardb}>PROJECTS</h2>
+          <a className= {styles.card}><h2><iframe width="320" height="100%" src="https://www.youtube.com/embed/f4OOc2BImq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h2></a>
           <a
             href="https://youtu.be/f4OOc2BImq0"
             className={styles.card}
@@ -46,9 +47,10 @@ export default function Home() {
 ● Created an SQL database to contain all info pertaining to Users and Studios<br></br>
 ● Used Bcrypt to accept and secure user passwords through hashing<br></br>
 ● Utilized a Nav Bar to allow our User to view all pages including their own profile</p><p><br></br>
-<br></br><iframe width="320" height="100%" src="https://www.youtube.com/embed/f4OOc2BImq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br></br>
 </p>
           </a>
+          <a className= {styles.card}><h2><iframe min-width="320" min-height="100%" src="https://www.youtube.com/embed/Q621bGUZ1GU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h2></a>
           <a
             href="https://youtu.be/Q621bGUZ1GU"
             className={styles.card}
@@ -56,16 +58,18 @@ export default function Home() {
             <h2>No Gas Magazine</h2>
             <p>A magazine demonstrating proficiency in linking a Ruby backend to a Javascript SPA
      <br></br>● Created a user friendly layout and considered accessibility<br></br>● Created a user friendly layout and considered accessibility<br></br> ● Created backend using Node.js to retain the info of Staff, Users, and their Articles Incorporated an article editor via a form in a React.js component<br></br>●
-Created a component via React.js to contain a user’s comments on an article<br></br><br></br><iframe width="320" height="100%" src="https://www.youtube.com/embed/Q621bGUZ1GU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+Created a component via React.js to contain a user’s comments on an article</p>
           </a>
+          <a className= {styles.card}><h2><iframe width="320" height="100%" src="https://www.youtube.com/embed/9U5DYzc6kDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h2></a>
           <a
             href="https://youtu.be/9U5DYzc6kDQ"
             className={styles.card}
           >
+            
             <h2>Appointment Assistant</h2>
             <p>A Ruby CLI app to schedule events with<br></br>
      ● Used technologies such as TTY and Catpix to make a more legible interface<br></br>● Created a database through SQL with relationships that are robust and detailed<br></br>●
-     First deployment of Bcrypt for us, secures user’s passwords through hashing algorithm</p><p><br></br><br></br><iframe width="320" height="100%" src="https://www.youtube.com/embed/9U5DYzc6kDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+     First deployment of Bcrypt for us, secures user’s passwords through hashing algorithm</p>
           </a>
 
           
