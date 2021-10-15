@@ -60,7 +60,7 @@ export default function Home() {
             href="https://youtu.be/Q621bGUZ1GU"
             className={styles.card}
           >
-            <div classname={styles.card}><ReactPlayer url="https://youtu.be/Q621bGUZ1GU" max-height="200px" width="100%" /></div>
+            <div className={styles.card}><ReactPlayer url="https://youtu.be/Q621bGUZ1GU" max-height="200px" width="100%" /></div>
             <br></br><br></br>
             <h2>No Gas Magazine</h2>
             <p>A magazine demonstrating proficiency in linking a Ruby backend to a Javascript SPA
@@ -74,7 +74,7 @@ export default function Home() {
             href="https://youtu.be/9U5DYzc6kDQ"
             className={styles.card}
           >
-            <div classname={styles.card}><ReactPlayer url="https://youtu.be/9U5DYzc6kDQ" max-height="200px" width="100%" /></div><br></br><br></br>
+            <div className={styles.card}><ReactPlayer url="https://youtu.be/9U5DYzc6kDQ" max-height="200px" width="100%" /></div><br></br><br></br>
             <h2>Appointment Assistant</h2>
             <p>A Ruby CLI app to schedule events with<br></br>
      ● Used technologies such as TTY and Catpix to make a more legible interface<br></br>● Created a database through SQL with relationships that are robust and detailed<br></br>●
