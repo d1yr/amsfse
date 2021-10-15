@@ -46,7 +46,7 @@ export default function Home() {
           >
             <div className={ styles.card }>
         <ReactPlayer url="https://youtu.be/f4OOc2BImq0" max-height="200px" width="100%" />
-        </div>
+        </div><br></br><br></br>
             <h2>Export Portal</h2>
             <p>A Ruby on Rails app to book time with a studio of the user’s choice<br></br>
 ● Created an SQL database to contain all info pertaining to Users and Studios<br></br>
@@ -60,6 +60,8 @@ export default function Home() {
             href="https://youtu.be/Q621bGUZ1GU"
             className={styles.card}
           >
+            <div classname={styles.card}><ReactPlayer url="https://youtu.be/Q621bGUZ1GU" max-height="200px" width="100%" /></div>
+            <br></br><br></br>
             <h2>No Gas Magazine</h2>
             <p>A magazine demonstrating proficiency in linking a Ruby backend to a Javascript SPA
           <br></br>● Created a user friendly layout and considered accessibility<br></br>● Created a user friendly layout and considered accessibility<br></br> ● Created backend using Node.js to retain the info of Staff, Users, and their Articles <br></br>● Incorporated an article editor via a form in a React.js component<br></br>●
@@ -72,7 +74,7 @@ export default function Home() {
             href="https://youtu.be/9U5DYzc6kDQ"
             className={styles.card}
           >
-            
+            <div classname={styles.card}><ReactPlayer url="https://youtu.be/9U5DYzc6kDQ" max-height="200px" width="100%" /></div><br></br><br></br>
             <h2>Appointment Assistant</h2>
             <p>A Ruby CLI app to schedule events with<br></br>
      ● Used technologies such as TTY and Catpix to make a more legible interface<br></br>● Created a database through SQL with relationships that are robust and detailed<br></br>●
